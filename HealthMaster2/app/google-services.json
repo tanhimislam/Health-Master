@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "921326098004",
+    "firebase_url": "https://health-master-12b22.firebaseio.com",
+    "project_id": "health-master-12b22",
+    "storage_bucket": "health-master-12b22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921326098004:android:7c1f95b71a6b222a",
+        "android_client_info": {
+          "package_name": "com.threemusketeers.healthmaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921326098004-k3oej20jqm3hcqqcc0231co0rstpfaom.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5NAfaqVnr7LjGylIP0aik7seoiALQU6c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

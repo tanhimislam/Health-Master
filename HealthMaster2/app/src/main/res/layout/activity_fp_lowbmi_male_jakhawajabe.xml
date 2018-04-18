@@ -1,0 +1,1413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_userinfo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/midnight_blue"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.threemusketeers.healthmaster.Details"
+    android:fillViewport="false">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2c3e50"
+        android:weightSum="1"
+        android:orientation="vertical"
+        android:gravity="top">
+        <TextView
+
+            android:text="WHAT TO EAT"
+            android:background="#2ecc71"
+            android:gravity="center"
+            android:capitalize="words"
+            android:color="#fff"
+            android:textAlignment="center"
+            android:textColor="#ecf0f1"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_span="2"
+            android:padding="5dp" />
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/bhat"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rice"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/khichuri"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Khichuri"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ataruti" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Atta Roti"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView5"
+                    android:src="@drawable/parata" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Parata"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/shemay" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vermicelli"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/payesh" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rice Pudding"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/noodle" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Noodles"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/biscuit" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Biscuits"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/muri" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Puffed Rice"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp"
+                />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/milk" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Milk"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/doy" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Curd"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/dim" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Egg"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ilish" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hilsha Fish"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/koi" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Koi Fish"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/magur" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Catfish"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/rui" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Salmon Fish"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/katla" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Catla Fish"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/mola" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mola Fish"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/samudrik" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Salt Water Fishes"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/murgi" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chicken"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/goru" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cow Meat"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/khashi" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mutton"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/kolija" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Liver"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/dal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pulses"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/lal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Red Spinach"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/datashak" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Stem Amaranth"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/methi" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Methi Leaves"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+
+                    android:src="@drawable/puishak" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Malabar Spinach"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/kochu" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Arum Leaves"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/alu" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Potato"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/potol" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pointed Gourd"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/shimierb" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pea Beans"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/lau" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bottle Gourd"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/pumpkin1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pumpkin"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/shimierb" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sheem"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/kakrol" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bitter Gourd"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/kaakrol" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Teasel Gourd"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/patakopi" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cabbage"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ful" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cauliflower"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/dherosh" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ladiesfinger"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/begun" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Brinjal"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/loti" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Strings"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/dhone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Parsley"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/morich" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Green Chilli"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/pudina" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mint"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/amra" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hog Plum"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/aam" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mango"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/kathal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jackfruit"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/aaa" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aamla"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/peyara" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Guava"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/tormuj" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Watermelon"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView8"
+                    android:src="@drawable/apple" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Apple"
+                    android:id="@+id/textView49"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp" >
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView9"
+                    android:src="@drawable/o" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tangerine"
+                    android:id="@+id/textView50"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView11"
+                    android:src="@drawable/boroy" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Plum"
+                    android:id="@+id/textView52"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView10"
+                    android:src="@drawable/jam" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Berry"
+                    android:id="@+id/textView51"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:background="@drawable/separator"
+                android:layout_height="1dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView6"
+                    android:src="@drawable/banana" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Banana"
+                    android:id="@+id/textView47"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#ecf0f1" />
+            </TableRow>
+
+
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>

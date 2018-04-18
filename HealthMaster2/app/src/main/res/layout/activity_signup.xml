@@ -1,0 +1,181 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/midnight_blue"
+    android:paddingBottom="30dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="30dp"
+    tools:context="com.threemusketeers.healthmaster.signup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/splash"
+            android:layout_width="155dp"
+            android:layout_height="155dp"
+            android:layout_gravity="center"
+            android:src="@drawable/splash_image" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:text="Know Your Nutrition Plan"
+            android:textColor="@color/clouds"
+            android:textSize="18sp" />
+        <!-- Signup progress -->
+
+
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="22dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_weight="4"
+                    android:src="@drawable/email_icon"
+                    android:layout_gravity="center" />
+
+
+                <EditText
+                    android:id="@+id/editTextEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="-45dp"
+                    android:paddingLeft="10dp"
+                    android:ems="10"
+                    android:paddingTop="12dp"
+                    android:fontFamily="sans-serif"
+                    android:gravity="left"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/clouds"
+                    android:textColorHint="@color/clouds"
+                    android:textColorLink="@color/clouds"
+                    android:textSize="20sp"
+                    tools:textColorLink="@color/asbestos" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <ImageView
+
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="22dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_weight="4"
+                    android:src="@drawable/unlock" />
+
+                <EditText
+                    android:id="@+id/editTextPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="-45dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="12dp"
+                    android:ems="10"
+                    android:paddingBottom="12dp"
+                    android:gravity="left"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:textColor="@color/clouds"
+                    android:textColorHint="@color/clouds"
+                    android:textColorLink="@color/clouds"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <ImageView
+
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="22dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_weight="4"
+                    android:src="@drawable/unlock" />
+
+                <EditText
+                    android:id="@+id/editTextConfirmPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="-45dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="12dp"
+                    android:ems="10"
+                    android:paddingBottom="12dp"
+                    android:gravity="left"
+                    android:hint="Confirm Password"
+                    android:inputType="textPassword"
+                    android:textColor="@color/clouds"
+                    android:textColorHint="@color/clouds"
+                    android:textColorLink="@color/clouds"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonSignup"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@color/wet_asphalt"
+                android:text="SIGN UP"
+                android:textColor="@color/clouds"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewSignin"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="Already registered? Sign In Here"
+                android:textColor="@color/clouds"
+                android:textSize="16sp"
+
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

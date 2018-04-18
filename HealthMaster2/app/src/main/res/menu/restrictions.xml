@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_should"
+        android:orderInCategory="100"
+        android:title="What To Eat"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_shouldnot"
+        android:orderInCategory="100"
+        android:title="What Not To Eat"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_less"
+        android:orderInCategory="100"
+        android:title="Eat In Less Amount"
+        app:showAsAction="never" />
+</menu>

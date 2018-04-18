@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_references"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/midnight_blue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.threemusketeers.healthmaster.References" >
+
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/midnight_blue" >
+
+    <TextView
+        android:id="@+id/refbrief"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textAlignment="textStart"
+        android:text="All the Nutrition Plans, Food Charts, Tips and Suggestions of this app were created with the help of trusted resources. Information were collected from Nutritionists, Doctors and Renowned books, publications and documents. The list of references are given below. "
+        android:textColor="@color/clouds"
+        android:textSize="19sp" />
+
+
+        <TextView
+            android:layout_below="@+id/refbrief"
+            android:id="@+id/reflist1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:text="1. Umme Salema; B.Sc (DU), M.Sc (DU), MPH; Public Health Nutritionist and Dietitian "
+            android:textColor="@color/clouds"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:layout_below="@+id/reflist1"
+            android:id="@+id/reflist2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="2. Food Composition Table and Database for Bangladesh with special reference to selected ethnic foods (INFS, Dhaka University) "
+            android:textColor="@color/clouds"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_below="@+id/reflist2"
+            android:id="@+id/reflist3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="3. Food and Nutrition - Dr. M Swaminath "
+            android:textColor="@color/clouds"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_below="@+id/reflist3"
+            android:id="@+id/reflist4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="4. Nutrition and Diet Therapy - Williams "
+            android:textColor="@color/clouds"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_below="@+id/reflist4"
+            android:id="@+id/reflist5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="5. Guide Book, Bangladesh Diabetics Society, BIRDEM "
+            android:textColor="@color/clouds"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_below="@+id/reflist5"
+            android:id="@+id/reflist6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="6. Shashto Rokkhay Pusti - Dr. Shah Mohammed Keramot Ali "
+            android:textColor="@color/clouds"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_below="@+id/reflist6"
+            android:id="@+id/reflist7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="7. Deshio Khaddodrobber Pustiman, INFS (Dhaka University) "
+            android:textColor="@color/clouds"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_below="@+id/reflist7"
+            android:id="@+id/reflist8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="8. Khaddo O Pusti Biggyan - Shaheen Ahmed "
+            android:textColor="@color/clouds"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_below="@+id/reflist8"
+            android:id="@+id/reflist9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="9. Shushastho Rokkhay Khaddo - Dr. Shah Mohammed Keramot Ali "
+            android:textColor="@color/clouds"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_below="@+id/reflist9"
+            android:id="@+id/reflist10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="\nResources used to make Food Plan:"
+            android:textColor="@color/clouds"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_below="@+id/reflist10"
+            android:id="@+id/reflist11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="1. Shashto Rokkhay Pusti - Dr. Shah Mohammed Keramot Ali; Page 90-99"
+            android:textColor="@color/clouds"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_below="@+id/reflist11"
+            android:id="@+id/reflist12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="2. Shushastho Rokkhay Khaddo - Dr. Shah Mohamed Keramot Ali; Page 11-18"
+            android:textColor="@color/clouds"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_below="@+id/reflist12"
+            android:id="@+id/reflist13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="3. Ki Khaben Ki Khaben Na - Dr. Ainun Afroj; Page 29-33"
+            android:textColor="@color/clouds"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_below="@+id/reflist13"
+            android:id="@+id/reflist14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="4. Food Composition Table and Database for Bangladesh with special reference to selected ethnic foods (INFS, Dhaka University); Page 110-112"
+            android:textColor="@color/clouds"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_below="@+id/reflist14"
+            android:id="@+id/reflist15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="5. Khaddo O Pustibiggyan - Shahin Ahmed; Page 62-78"
+            android:textColor="@color/clouds"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_below="@+id/reflist15"
+            android:id="@+id/reflist16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="\nResources used to make Food Nutrients:"
+            android:textColor="@color/clouds"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_below="@+id/reflist16"
+            android:id="@+id/reflist17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="1. Ki Khaben Ki Khaben Na - Dr. Ainun Afroj; Page 89"
+            android:textColor="@color/clouds"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_below="@+id/reflist17"
+            android:id="@+id/reflist18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="2. Shashto Rokkhay Pusti - Dr. Shah Mohammed Keramot Ali; Page 94-98"
+            android:textColor="@color/clouds"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_below="@+id/reflist18"
+            android:id="@+id/reflist19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="3. Food Composition Table and Database for Bangladesh with special reference to selected ethnic foods (INFS, Dhaka University); Page 40-105"
+            android:textColor="@color/clouds"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_below="@+id/reflist19"
+            android:id="@+id/reflist20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="4. Pusti Tothyo Jene Nin - Syed Sharmit Akhter; Page 34-55"
+            android:textColor="@color/clouds"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_below="@+id/reflist20"
+            android:id="@+id/reflist21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="\nResources used to make Food Exchange:"
+            android:textColor="@color/clouds"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_below="@+id/reflist21"
+            android:id="@+id/reflist22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="1. Bangladesh Diabetic Society Guide Book; Page 37-48"
+            android:textColor="@color/clouds"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_below="@+id/reflist22"
+            android:id="@+id/reflist23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="2. Deshio Khaddodrobber Pustiman, INFS (Dhaka University); Page 110-111"
+            android:textColor="@color/clouds"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_below="@+id/reflist23"
+            android:id="@+id/reflist24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="3. Food and Nutrition - Dr. M Swaminath"
+            android:textColor="@color/clouds"
+            android:textSize="18sp" />
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+    </ScrollView>

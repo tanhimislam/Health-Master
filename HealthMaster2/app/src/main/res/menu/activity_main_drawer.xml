@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/user"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_plan"
+            android:icon="@drawable/restaurant"
+            android:title="Food Plan" />
+        <item
+            android:id="@+id/nav_reminder"
+            android:icon="@drawable/alarm"
+            android:title="Food Reminder" />
+        <item
+            android:id="@+id/nav_nutrition"
+            android:icon="@drawable/nutrition"
+            android:title="Food Nutrients" />
+        <item
+            android:id="@+id/nav_exchange"
+            android:icon="@drawable/exchange"
+            android:title="Food Exchange" />
+        <item
+            android:id="@+id/nav_tips"
+            android:icon="@drawable/healthtips"
+            android:title="Health Tips" />
+        <item
+            android:id="@+id/nav_hospital"
+            android:icon="@drawable/hospital"
+            android:title="Nearby Hospitals" />
+    </group>
+
+    <item
+        android:id="@+id/others"
+        android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_references"
+                android:icon="@drawable/magazine"
+                android:title="References" />
+            <item
+                android:id="@+id/nav_aboutUs"
+                android:icon="@drawable/about"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/exit"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_reminder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/midnight_blue"
+    android:orientation="vertical"
+    tools:context="com.threemusketeers.healthmaster.reminder">
+
+
+    <TextView
+        android:id="@+id/textreminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="Please take your foods on time"
+        android:textColor="@color/sun_flower"
+        android:textSize="20sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textreminder"
+        android:background="@color/midnight_blue"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:background="@color/midnight_blue"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/midnight_blue"
+                android:orientation="vertical"
+                android:paddingBottom="16dp"
+                android:paddingTop="16dp"
+                android:weightSum="6">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:paddingBottom="0dp"
+                    android:paddingTop="0dp"
+                    android:text="Breakfast"
+                    android:textColor="@color/clouds"
+                    android:textSize="22sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:paddingLeft="0dp"
+                    app:srcCompat="@drawable/breakfast_reminder" />
+
+                <TextView
+                    android:id="@+id/textViewBreakFast"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:paddingBottom="0dp"
+                    android:paddingTop="10dp"
+                    android:text="Off"
+                    android:textColor="@color/concrete"
+                    android:textSize="18sp" />
+
+                <Switch
+                    android:id="@+id/switchBreakFast"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="3.5"
+                    android:gravity="center"
+                    android:paddingRight="80dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/wet_asphalt"
+                android:orientation="vertical"
+                android:paddingBottom="16dp"
+                android:paddingTop="16dp"
+                android:weightSum="6">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:paddingBottom="0dp"
+                    android:paddingTop="0dp"
+                    android:text="Lunch"
+                    android:textColor="@color/clouds"
+                    android:textSize="22sp" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    app:srcCompat="@drawable/lunch_reminder" />
+
+                <TextView
+                    android:id="@+id/textViewLunch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:paddingBottom="0dp"
+                    android:paddingTop="10dp"
+                    android:text="Off"
+                    android:textColor="@color/concrete"
+                    android:textSize="18sp" />
+
+                <Switch
+                    android:id="@+id/switchLunch"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="3.5"
+                    android:gravity="center"
+                    android:paddingRight="80dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/midnight_blue"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/wet_asphalt"
+                android:orientation="vertical"
+                android:paddingBottom="16dp"
+                android:paddingTop="16dp"
+                android:weightSum="6">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:paddingBottom="0dp"
+                    android:paddingTop="0dp"
+                    android:text="Snacks"
+                    android:textColor="@color/clouds"
+                    android:textSize="22sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:paddingLeft="0dp"
+                    app:srcCompat="@drawable/snacks_reminder" />
+
+                <TextView
+                    android:id="@+id/textViewSnacks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:paddingBottom="0dp"
+                    android:paddingTop="10dp"
+                    android:text="Off"
+                    android:textColor="@color/concrete"
+                    android:textSize="18sp" />
+
+                <Switch
+                    android:id="@+id/switchSnacks"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="3.5"
+                    android:gravity="center"
+                    android:paddingRight="80dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/midnight_blue"
+                android:orientation="vertical"
+                android:paddingBottom="16dp"
+                android:paddingTop="16dp"
+                android:weightSum="6">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:paddingBottom="0dp"
+                    android:paddingTop="0dp"
+                    android:text="Dinner"
+                    android:textColor="@color/clouds"
+                    android:textSize="22sp" />
+
+                <ImageView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    app:srcCompat="@drawable/dinner_reminder" />
+
+                <TextView
+                    android:id="@+id/textViewDinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:paddingBottom="0dp"
+                    android:paddingTop="10dp"
+                    android:text="Off"
+                    android:textColor="@color/concrete"
+                    android:textSize="18sp" />
+
+                <Switch
+                    android:id="@+id/switchDinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="3.5"
+                    android:gravity="center"
+                    android:paddingRight="80dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

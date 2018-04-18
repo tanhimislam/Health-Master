@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Health Master</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Log Out</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Food Plan</string>
+    <string name="slide_1_desc">Get everyday food plan according to your health condition.</string>
+
+    <string name="slide_2_title">Food Reminder</string>
+    <string name="slide_2_desc">Let the app reminds you to take food in time before breakfast, lunch, snacks and dinner.</string>
+
+    <string name="slide_3_title">Food Exchange</string>
+    <string name="slide_3_desc">See charts of carbohydrates, Protein, Fat, Vegetables, Leaves, Fruits and other food items which have equivalent nutrients.</string>
+
+    <string name="slide_4_title">Food Nutrients</string>
+    <string name="slide_4_desc">Search and find nutritional facts of different foods.</string>
+
+    <string name="slide_5_title">Health Tips</string>
+    <string name="slide_5_desc">Get health tips and suggestions from doctors and nutritionists.</string>
+
+    <string name="slide_6_title">Nearby Hospitals</string>
+    <string name="slide_6_desc">Find hospitals nearer to you in the map.</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+</resources>

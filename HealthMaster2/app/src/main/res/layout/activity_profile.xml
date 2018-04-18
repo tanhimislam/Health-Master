@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/midnight_blue"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="30dp"
+    tools:context="com.threemusketeers.healthmaster.Profile">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/midnight_blue"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        android:paddingTop="8dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/imageViewProfile"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:adjustViewBounds="false"
+            android:background="@drawable/rounded"
+            android:cropToPadding="true"
+            android:elevation="0dp"
+            android:fadeScrollbars="false"
+            android:paddingBottom="18dp"
+            android:src="@drawable/profile_update" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:background="@color/wet_asphalt"
+            android:orientation="horizontal"
+            android:paddingEnd="0dp"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/editTextName"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="center"
+                android:text="Name"
+                android:textAllCaps="false"
+                android:textColor="@color/clouds"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/editTextName1"
+                android:layout_width="200dp"
+                android:layout_height="54dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:paddingBottom="5dp"
+                android:text="User Name"
+                android:textAllCaps="false"
+                android:textColor="@color/clouds"
+                android:textColorHint="@color/clouds"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:orientation="horizontal"
+            android:paddingEnd="0dp"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/editTextAge"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:text="Age"
+                android:textColor="@color/clouds"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/editTextAge1"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_weight="2"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="number"
+                android:paddingBottom="5dp"
+                android:text="23"
+                android:textAllCaps="true"
+                android:textColor="@color/clouds"
+                android:textColorHint="@color/clouds"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:background="@color/wet_asphalt"
+            android:orientation="horizontal"
+            android:paddingEnd="0dp"
+            android:weightSum="4">
+
+            <TextView
+                android:id="@+id/editTextSex"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="text"
+                android:paddingRight="15dp"
+                android:text="Sex"
+                android:textAllCaps="false"
+                android:textColor="@color/clouds"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/editTextSex1"
+                android:layout_width="100dp"
+                android:layout_height="54dp"
+                android:layout_weight="3"
+                android:clickable="true"
+                android:editable="true"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textCapCharacters"
+                android:paddingBottom="5dp"
+                android:paddingLeft="-25dp"
+                android:text="Female"
+                android:textAllCaps="false"
+                android:textColor="@color/clouds"
+                android:textColorHint="@color/clouds"
+                android:textIsSelectable="false"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:orientation="horizontal"
+            android:paddingEnd="0dp"
+            android:weightSum="4">
+
+            <TextView
+                android:id="@+id/editTextHeight"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="2"
+                android:ems="10"
+                android:gravity="center"
+                android:paddingRight="25dp"
+                android:text="Height"
+                android:textAllCaps="false"
+                android:textColor="@color/clouds"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/editTextHeight1"
+                android:layout_width="60dp"
+                android:layout_height="54dp"
+                android:layout_weight="1"
+
+                android:clickable="true"
+                android:editable="true"
+                android:ems="10"
+                android:gravity="center|center_horizontal|fill"
+                android:inputType="number"
+                android:paddingBottom="5dp"
+                android:text="136"
+                android:textAllCaps="true"
+                android:textColor="@color/clouds"
+                android:textColorHint="@color/clouds"
+                android:textIsSelectable="false"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/buttonCM"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:background="@color/midnight_blue"
+                android:text="CM"
+                android:textAllCaps="true"
+                android:textColor="@color/clouds"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:background="@color/wet_asphalt"
+            android:orientation="horizontal"
+            android:paddingEnd="0dp"
+            android:weightSum="4">
+
+            <TextView
+                android:id="@+id/editTextWeight"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="2"
+                android:ems="10"
+                android:gravity="center"
+                android:paddingRight="25dp"
+                android:text="Weight"
+                android:textAllCaps="false"
+                android:textColor="@color/clouds"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/editTextWeight1"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="center|center_horizontal|fill"
+                android:inputType="numberDecimal"
+                android:paddingBottom="5dp"
+                android:text="70"
+                android:textAllCaps="true"
+                android:textColor="@color/clouds"
+                android:textColorHint="@color/clouds"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/buttonDone"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:background="@color/wet_asphalt"
+                android:text="KG"
+                android:textColor="@color/clouds"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="#16a085"
+            android:orientation="horizontal"
+            android:paddingEnd="0dp"
+            android:weightSum="4">
+
+            <TextView
+                android:id="@+id/editTextBmi"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="center"
+                android:paddingLeft="30dp"
+                android:text="BMI"
+                android:textAllCaps="true"
+                android:textColor="@color/clouds"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/editTextBmi1"
+                android:layout_width="60dp"
+                android:layout_height="54dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="number"
+                android:paddingBottom="0dp"
+                android:text="23"
+                android:textAllCaps="true"
+                android:textColor="@color/clouds"
+                android:textColorHint="@color/clouds"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/editTextCalorie"
+                android:layout_width="100dp"
+                android:layout_height="54dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingRight="10dp"
+                android:text="Calorie"
+                android:textAllCaps="false"
+                android:textColor="@color/clouds"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/editTextCalorie1"
+                android:layout_width="60dp"
+                android:layout_height="54dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="center|center_horizontal|fill"
+                android:inputType="number"
+                android:paddingBottom="5dp"
+                android:text="1900"
+                android:textAllCaps="true"
+                android:textColor="@color/clouds"
+                android:textColorHint="@color/clouds"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/buttonCancel"
+                android:layout_width="170dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@color/pomegranate"
+                android:text="CANCEL"
+                android:textAllCaps="true"
+                android:textColor="@color/clouds"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/buttonSave"
+                android:layout_width="170dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@color/belize_hole"
+                android:text="SAVE"
+                android:textAllCaps="true"
+                android:textColor="@color/clouds"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

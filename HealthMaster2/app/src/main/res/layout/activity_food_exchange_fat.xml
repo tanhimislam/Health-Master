@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_food_exchange_fat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/midnight_blue"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.threemusketeers.healthmaster.FoodExchangeDetails">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/midnight_blue"
+        android:orientation="vertical" >
+
+
+        <LinearLayout
+            android:layout_below="@+id/textfat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/midnight_blue"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/midnight_blue"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_weight="1">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/midnight_blue"
+                    android:orientation="vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:weightSum="3"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="5dp"
+                        app:srcCompat="@drawable/kolija" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="0dp"
+                        android:paddingTop="0dp"
+                        android:text="Oil"
+                        android:textColor="@color/clouds"
+                        android:textSize="21sp" />
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="1 Tablespoon"
+                        android:textColor="@color/concrete"
+                        android:textSize="18sp" />
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/wet_asphalt"
+                    android:orientation="vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:weightSum="3"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="5dp"
+                        app:srcCompat="@drawable/ghi" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="0dp"
+                        android:paddingTop="0dp"
+                        android:text="Ghee"
+                        android:textColor="@color/clouds"
+                        android:textSize="21sp" />
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="1 Tablespoon"
+                        android:textColor="@color/concrete"
+                        android:textSize="18sp" />
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/midnight_blue"
+                    android:orientation="vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:weightSum="3"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="5dp"
+                        app:srcCompat="@drawable/butter" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="0dp"
+                        android:paddingTop="0dp"
+                        android:text="Butter"
+                        android:textColor="@color/clouds"
+                        android:textSize="21sp" />
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="1 Tablespoon"
+                        android:textColor="@color/concrete"
+                        android:textSize="18sp" />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="Foods in the same columns are equivalent"
+                android:textColor="@color/clouds"
+                android:textSize="20sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="1 Tablespoon = 1 Serving = 5 Grams"
+                android:textColor="@color/clouds"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textfat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="Fat"
+            android:textAllCaps="false"
+            android:background="@color/green_sea"
+            android:textColor="@color/clouds"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

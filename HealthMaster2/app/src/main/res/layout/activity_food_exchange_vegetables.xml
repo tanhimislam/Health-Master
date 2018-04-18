@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_food_exchange_vegetables"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/midnight_blue"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.threemusketeers.healthmaster.FoodExchangeDetails">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/midnight_blue"
+        android:orientation="vertical" >
+
+
+
+
+
+        <TextView
+            android:id="@+id/textveg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="Vegetables"
+            android:textAllCaps="false"
+            android:background="@color/green_sea"
+            android:textColor="@color/clouds"
+            android:textSize="20sp" />
+
+
+
+
+        <LinearLayout
+            android:layout_below="@+id/textveg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/midnight_blue"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/midnight_blue"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_weight="1">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/midnight_blue"
+                    android:orientation="vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:weightSum="3"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="5dp"
+                        app:srcCompat="@drawable/alu" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="0dp"
+                        android:paddingTop="0dp"
+                        android:text="Potato"
+                        android:textColor="@color/clouds"
+                        android:textSize="21sp" />
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="1 Pice (Small)"
+                        android:textColor="@color/concrete"
+                        android:textSize="18sp" />
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/wet_asphalt"
+                    android:orientation="vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:weightSum="3"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="5dp"
+                        app:srcCompat="@drawable/gajor" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="0dp"
+                        android:paddingTop="0dp"
+                        android:text="Carrot"
+                        android:textColor="@color/clouds"
+                        android:textSize="21sp"
+                        android:id="@+id/textView24" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="1 Piece (Small)"
+                        android:textColor="@color/concrete"
+                        android:textSize="18sp" />
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/midnight_blue"
+                    android:orientation="vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:weightSum="3"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="5dp"
+                        app:srcCompat="@drawable/pumpkin1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="0dp"
+                        android:paddingTop="0dp"
+                        android:text="Pumpkin"
+                        android:textColor="@color/clouds"
+                        android:textSize="21sp" />
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="Half Cup"
+                        android:textColor="@color/concrete"
+                        android:textSize="18sp" />
+
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/midnight_blue"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_weight="1">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/wet_asphalt"
+                    android:orientation="vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:weightSum="3"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="5dp"
+                        app:srcCompat="@drawable/kochu" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="0dp"
+                        android:paddingTop="0dp"
+                        android:text="Arum"
+                        android:textColor="@color/clouds"
+                        android:textSize="21sp" />
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="Half Cup"
+                        android:textColor="@color/concrete"
+                        android:textSize="18sp" />
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/midnight_blue"
+                    android:orientation="vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:weightSum="3"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="5dp"
+                        app:srcCompat="@drawable/thor" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="0dp"
+                        android:paddingTop="0dp"
+                        android:text="Plantain Flower"
+                        android:textColor="@color/clouds"
+                        android:textSize="21sp" />
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="Half Cup"
+                        android:textColor="@color/concrete"
+                        android:textSize="18sp" />
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/wet_asphalt"
+                    android:orientation="vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:weightSum="3"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="5dp"
+                        app:srcCompat="@drawable/kachkola" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="0dp"
+                        android:paddingTop="0dp"
+                        android:text="Green Banana"
+                        android:textColor="@color/clouds"
+                        android:textSize="21sp" />
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="Half Cup/Half Piece"
+                        android:textColor="@color/concrete"
+                        android:textSize="18sp" />
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/midnight_blue"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_weight="1">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/midnight_blue"
+                    android:orientation="vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:weightSum="3"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="5dp"
+                        app:srcCompat="@drawable/kaakrol" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="0dp"
+                        android:paddingTop="0dp"
+                        android:text="Teasel Gourd"
+                        android:textColor="@color/clouds"
+                        android:textSize="21sp" />
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="1 Piece"
+                        android:textColor="@color/concrete"
+                        android:textSize="18sp" />
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/wet_asphalt"
+                    android:orientation="vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:weightSum="3"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="5dp"
+                        app:srcCompat="@drawable/ful" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="0dp"
+                        android:paddingTop="0dp"
+                        android:text="Cauliflower"
+                        android:textColor="@color/clouds"
+                        android:textSize="21sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="1 Cup"
+                        android:textColor="@color/concrete"
+                        android:textSize="18sp" />
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/midnight_blue"
+                    android:orientation="vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:weightSum="3"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="5dp"
+                        app:srcCompat="@drawable/kakrol" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="0dp"
+                        android:paddingTop="0dp"
+                        android:text="Bitter Gourd"
+                        android:textColor="@color/clouds"
+                        android:textSize="21sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="Half Cup"
+                        android:textColor="@color/concrete"
+                        android:textSize="18sp" />
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/midnight_blue"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_weight="1">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/wet_asphalt"
+                    android:orientation="vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:weightSum="3"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="5dp"
+                        app:srcCompat="@drawable/ichor" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="0dp"
+                        android:paddingTop="0dp"
+                        android:text="Immature Jackfruit"
+                        android:textColor="@color/clouds"
+                        android:textSize="21sp" />
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="Half Cup"
+                        android:textColor="@color/concrete"
+                        android:textSize="18sp" />
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/midnight_blue"
+                    android:orientation="vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:weightSum="3"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="5dp"
+                        app:srcCompat="@drawable/kathaler_bichi" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="0dp"
+                        android:paddingTop="0dp"
+                        android:text="Jackfruit Seeds"
+                        android:textColor="@color/clouds"
+                        android:textSize="21sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="Half Cup"
+                        android:textColor="@color/concrete"
+                        android:textSize="18sp" />
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/wet_asphalt"
+                    android:orientation="vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:weightSum="3"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="5dp"
+                        app:srcCompat="@drawable/turnip" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="0dp"
+                        android:paddingTop="0dp"
+                        android:text="Turnip"
+                        android:textColor="@color/clouds"
+                        android:textSize="21sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="1 Piece (Small)"
+                        android:textColor="@color/concrete"
+                        android:textSize="18sp" />
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/midnight_blue"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_weight="1">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/midnight_blue"
+                    android:orientation="vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:weightSum="3"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="5dp"
+                        app:srcCompat="@drawable/dherosh" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="0dp"
+                        android:paddingTop="0dp"
+                        android:text="Ladiesfinger"
+                        android:textColor="@color/clouds"
+                        android:textSize="19sp" />
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="1 Cup"
+                        android:textColor="@color/concrete"
+                        android:textSize="18sp" />
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/wet_asphalt"
+                    android:orientation="vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:weightSum="3"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="5dp"
+                        app:srcCompat="@drawable/kochumukhi" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="0dp"
+                        android:paddingTop="0dp"
+                        android:text="Taro"
+                        android:textColor="@color/clouds"
+                        android:textSize="21sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="Half Cup"
+                        android:textColor="@color/concrete"
+                        android:textSize="18sp" />
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/midnight_blue"
+                    android:orientation="vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:weightSum="3"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="5dp"
+                        app:srcCompat="@drawable/begun" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="0dp"
+                        android:paddingTop="0dp"
+                        android:text="Brinjal"
+                        android:textColor="@color/clouds"
+                        android:textSize="21sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="1 Cup"
+                        android:textColor="@color/concrete"
+                        android:textSize="18sp" />
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/midnight_blue"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_weight="1">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/wet_asphalt"
+                    android:orientation="vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:weightSum="3"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="5dp"
+                        app:srcCompat="@drawable/bita" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="0dp"
+                        android:paddingTop="0dp"
+                        android:text="Beet"
+                        android:textColor="@color/clouds"
+                        android:textSize="21sp" />
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="1 Cup"
+                        android:textColor="@color/concrete"
+                        android:textSize="18sp" />
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/midnight_blue"
+                    android:orientation="vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:weightSum="3"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="5dp"
+                        app:srcCompat="@drawable/potol" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="0dp"
+                        android:paddingTop="0dp"
+                        android:text="Pointed Gourd"
+                        android:textColor="@color/clouds"
+                        android:textSize="21sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="1 Cup"
+                        android:textColor="@color/concrete"
+                        android:textSize="18sp" />
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/wet_asphalt"
+                    android:orientation="vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:weightSum="3"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="5dp"
+                        app:srcCompat="@drawable/borboti" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingBottom="0dp"
+                        android:paddingTop="0dp"
+                        android:text="String Beans"
+                        android:textColor="@color/clouds"
+                        android:textSize="21sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="Half Cup"
+                        android:textColor="@color/concrete"
+                        android:textSize="18sp" />
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="Foods in the same columns are equivalent"
+                android:textColor="@color/clouds"
+                android:textSize="20sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="1 Cup = 1 Serving = 30 Grams"
+                android:textColor="@color/clouds"
+                android:textSize="20sp" />
+
+
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

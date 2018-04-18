@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_userinfo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/midnight_blue"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="25dp"
+    tools:context="com.threemusketeers.healthmaster.FoodPlan"
+    android:fillViewport="false">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:touchscreenBlocksFocus="false">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#e74c3c"
+            android:layout_gravity="center"
+            android:layout_alignWithParentIfMissing="false"
+            android:id="@+id/tableLayout"
+            android:layout_alignParentTop="false"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true">
+
+            <TextView
+
+                android:id="@+id/my_text"
+                android:text="NUTRITION PLAN"
+                android:background="#2ecc71"
+                android:gravity="center"
+                android:capitalize="words"
+                android:color="#fff"
+                android:textAlignment="center"
+                android:textColor="#ecf0f1"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/editText4"
+                android:text="SUGGESTED NUTRITION PLAN ACCORDING TO YOUR HEALTH CONDITION"
+                android:background="#2c3e50"
+                android:gravity="center"
+                android:capitalize="words"
+                android:color="#fff"
+                android:textAlignment="center"
+                android:textColor="#ecf0f1"
+                android:textSize="14sp"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                />
+
+            <TextView
+                android:id="@+id/editText3"
+                android:text="MORNING"
+                android:background="#c0392b"
+                android:gravity="center"
+                android:capitalize="words"
+                android:color="#fff"
+                android:textAlignment="center"
+                android:textColor="#ecf0f1"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+
+                    android:id="@+id/editText"
+                    android:background="#e74c3c"
+                    android:text="> Atta Roti / Bread/"
+                    android:textColor="#ecf0f1"
+                    android:paddingStart="0dp"
+                    android:phoneNumber="false"
+                    android:textIsSelectable="false"
+                    android:textSize="15dp"
+                    android:layout_column="0"
+                    android:layout_weight="1" />
+
+                <TextView
+
+
+                    android:background="#e74c3c"
+                    android:text="4 "
+                    android:textColor="#ecf0f1"
+                    android:paddingStart="0dp"
+                    android:phoneNumber="false"
+                    android:textIsSelectable="false"
+                    android:textSize="15dp"
+                    android:layout_column="12"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#e74c3c"
+                android:baselineAligned="false"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+
+
+                    android:background="#e74c3c"
+                    android:text=" Rice / Khichuri"
+                    android:textColor="#ecf0f1"
+                    android:paddingStart="0dp"
+                    android:phoneNumber="false"
+                    android:textIsSelectable="false"
+                    android:textSize="15dp"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    android:layout_gravity="bottom" />
+
+                <TextView
+                    android:id="@+id/editText2"
+                    android:background="#e74c3c"
+                    android:text="3 cups"
+                    android:textColor="#ecf0f1"
+                    android:paddingStart="0dp"
+                    android:phoneNumber="false"
+                    android:textIsSelectable="false"
+                    android:textSize="15dp"
+                    android:layout_column="12"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#e74c3c"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+
+
+                    android:background="#e74c3c"
+                    android:text="> Vegetables"
+                    android:textColor="#ecf0f1"
+                    android:paddingStart="0dp"
+                    android:phoneNumber="false"
+                    android:textIsSelectable="false"
+                    android:textSize="15dp"
+                    android:layout_column="0"
+                    android:layout_weight="1" />
+
+                <TextView
+
+
+                    android:background="#e74c3c"
+                    android:text="1 cup"
+                    android:textColor="#ecf0f1"
+                    android:paddingStart="0dp"
+                    android:phoneNumber="false"
+                    android:textIsSelectable="false"
+                    android:textSize="15dp"
+                    android:layout_column="12"
+                    android:layout_weight="1" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#e74c3c"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+
+
+                    android:background="#e74c3c"
+                    android:text="> Egg / Pulses"
+                    android:textColor="#ecf0f1"
+                    android:paddingStart="0dp"
+                    android:phoneNumber="false"
+                    android:textIsSelectable="false"
+                    android:textSize="15dp"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+
+
+                    android:background="#e74c3c"
+                    android:text="1 /  haIf cup"
+                    android:textColor="#ecf0f1"
+                    android:paddingStart="0dp"
+                    android:phoneNumber="false"
+                    android:textIsSelectable="false"
+                    android:textSize="15dp"
+                    android:layout_column="12"
+                    android:layout_weight="1" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#e74c3c"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+
+
+                    android:background="#e74c3c"
+                    android:text="> Tea / Coffee"
+                    android:textColor="#ecf0f1"
+                    android:paddingStart="0dp"
+                    android:phoneNumber="false"
+                    android:textIsSelectable="false"
+                    android:textSize="15dp"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+
+
+                    android:background="#e74c3c"
+                    android:text="1 cup "
+                    android:textColor="#ecf0f1"
+                    android:paddingStart="0dp"
+                    android:phoneNumber="false"
+                    android:textIsSelectable="false"
+                    android:textSize="15dp"
+                    android:layout_column="12"
+                    android:layout_weight="1" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#e74c3c"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+
+
+                    android:background="#e74c3c"
+                    android:text="> Seasonal Fruits"
+                    android:textColor="#ecf0f1"
+                    android:paddingStart="0dp"
+                    android:phoneNumber="false"
+                    android:textIsSelectable="false"
+                    android:textSize="15dp"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+
+
+                    android:background="#e74c3c"
+                    android:text="1 "
+                    android:textColor="#ecf0f1"
+                    android:paddingStart="0dp"
+                    android:phoneNumber="false"
+                    android:textIsSelectable="false"
+                    android:textSize="15dp"
+                    android:layout_column="12"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+
+            </TableRow>
+
+            <TextView
+                android:id="@+id/textView17"
+                android:background="#2c3e50"
+                android:gravity="center"
+                android:capitalize="words"
+                android:color="#fff"
+                android:textAlignment="center"
+                android:textColor="#ecf0f1"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoText="false" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:text="NOON"
+                android:background="#d35400"
+                android:gravity="center"
+                android:capitalize="words"
+                android:color="#fff"
+                android:textAlignment="center"
+                android:textColor="#ecf0f1"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#e67e22">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView4" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#e67e22">
+
+                <TextView
+                    android:text="> Rice / Ruti"
+                    android:id="@+id/textView5"
+                    android:textColor="#ecf0f1"
+                    android:textSize="15dp"
+                    android:layout_weight="1"
+                    android:paddingBottom="5dp" />
+
+                <TextView
+                    android:text="3 cups / 4"
+                    android:id="@+id/textView6"
+                    android:textSize="15dp"
+                    android:textColor="#ecf0f1"
+                    android:layout_weight="1"
+                    android:layout_column="12" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#e67e22" >
+
+                <TextView
+                    android:text="> Vegetables "
+                    android:id="@+id/textView8"
+                    android:textColor="#ecf0f1"
+                    android:textSize="15dp"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp" />
+
+                <TextView
+                    android:text="2 cups"
+                    android:id="@+id/textView9"
+                    android:textSize="15dp"
+                    android:textColor="#ecf0f1"
+                    android:layout_weight="1"
+                    android:layout_column="12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#e67e22" >
+
+                <TextView
+                    android:text="> Pulses"
+                    android:id="@+id/textView10"
+                    android:textColor="#ecf0f1"
+                    android:textSize="15dp"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp" />
+
+                <TextView
+                    android:text="2 cups"
+                    android:id="@+id/textView11"
+                    android:textSize="15dp"
+                    android:textColor="#ecf0f1"
+                    android:layout_weight="1"
+                    android:layout_column="12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#e67e22" >
+
+                <TextView
+                    android:text="> Fish / Meat"
+                    android:id="@+id/textView12"
+                    android:textColor="#ecf0f1"
+                    android:textSize="15dp"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp" />
+
+                <TextView
+                    android:text="2 pieces"
+                    android:id="@+id/textView13"
+                    android:textSize="15dp"
+                    android:textColor="#ecf0f1"
+                    android:layout_weight="1"
+                    android:layout_column="12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#e67e22" >
+
+                <TextView
+                    android:text="> Leaves"
+                    android:id="@+id/textView14"
+                    android:textColor="#ecf0f1"
+                    android:textSize="15dp"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp" />
+
+                <TextView
+                    android:text="half cup"
+                    android:id="@+id/textView15"
+                    android:textSize="15dp"
+                    android:textColor="#ecf0f1"
+                    android:layout_weight="1"
+                    android:layout_column="12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#e67e22" >
+
+                <TextView
+                    android:text="> Salad"
+                    android:id="@+id/textView27"
+                    android:textColor="#ecf0f1"
+                    android:textSize="15dp"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="half cup"
+                    android:id="@+id/textView28"
+                    android:textSize="15dp"
+                    android:textColor="#ecf0f1"
+                    android:layout_weight="1"
+                    android:layout_column="12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#e67e22" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                   />
+            </TableRow>
+            <TextView
+
+                android:background="#2c3e50"
+                android:gravity="center"
+                android:capitalize="words"
+                android:color="#fff"
+                android:textAlignment="center"
+                android:textColor="#ecf0f1"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoText="false" />
+
+            <TextView
+
+                android:text="AFTERNOON"
+                android:background="#16a085"
+                android:gravity="center"
+                android:capitalize="words"
+                android:color="#fff"
+                android:textAlignment="center"
+                android:textColor="#ecf0f1"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#1abc9c">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#1abc9c">
+
+                <TextView
+                    android:text="> Biscuit / Flattened Rice\n/ Puffed Rice /"
+
+                    android:textColor="#ecf0f1"
+                    android:textSize="15dp"
+                    android:layout_weight="1"
+                    android:paddingBottom="5dp" />
+
+                <TextView
+                    android:text="4 pieces (Small) /"
+
+                    android:textSize="15dp"
+                    android:textColor="#ecf0f1"
+                    android:layout_weight="1"
+                    android:layout_column="12" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#1abc9c" >
+
+                <TextView
+                    android:text="  Noodles / Soup "
+
+                    android:textColor="#ecf0f1"
+                    android:textSize="15dp"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp" />
+
+                <TextView
+                    android:text="1 cup / 1 plate"
+
+                    android:textSize="15dp"
+                    android:textColor="#ecf0f1"
+                    android:layout_weight="1"
+                    android:layout_column="12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#1abc9c" >
+
+                <TextView
+                    android:text="> Peanut"
+
+                    android:textColor="#ecf0f1"
+                    android:textSize="15dp"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp" />
+
+                <TextView
+                    android:text="50 gram"
+
+                    android:textSize="15dp"
+                    android:textColor="#ecf0f1"
+                    android:layout_weight="1"
+                    android:layout_column="12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#1abc9c" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                   />
+            </TableRow>
+
+            <TextView
+
+                android:background="#2c3e50"
+                android:gravity="center"
+                android:capitalize="words"
+                android:color="#fff"
+                android:textAlignment="center"
+                android:textColor="#ecf0f1"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoText="false" />
+
+            <TextView
+
+                android:text="NIGHT"
+                android:background="#2980b9"
+                android:gravity="center"
+                android:capitalize="words"
+                android:color="#fff"
+                android:textAlignment="center"
+                android:textColor="#ecf0f1"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#3498db">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                   />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#3498db">
+
+                <TextView
+                    android:text="> Rice / Atta Roti "
+
+                    android:textColor="#ecf0f1"
+                    android:textSize="15dp"
+                    android:layout_weight="1"
+                    android:paddingBottom="5dp" />
+
+                <TextView
+                    android:text="3 cups / 4"
+
+                    android:textSize="15dp"
+                    android:textColor="#ecf0f1"
+                    android:layout_weight="1"
+                    android:layout_column="12" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#3498db" >
+
+                <TextView
+                    android:text="> Vegetables"
+
+                    android:textColor="#ecf0f1"
+                    android:textSize="15dp"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp" />
+
+                <TextView
+                    android:text="1 cups"
+
+                    android:textSize="15dp"
+                    android:textColor="#ecf0f1"
+                    android:layout_weight="1"
+                    android:layout_column="12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#3498db" >
+
+                <TextView
+                    android:text="> Pulses"
+                    android:textColor="#ecf0f1"
+                    android:textSize="15dp"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp" />
+
+                <TextView
+                    android:text="2 cups"
+
+                    android:textSize="15dp"
+                    android:textColor="#ecf0f1"
+                    android:layout_weight="1"
+                    android:layout_column="12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#3498db" >
+
+                <TextView
+                    android:text="> Fish / Meat"
+
+                    android:textColor="#ecf0f1"
+                    android:textSize="15dp"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp" />
+
+                <TextView
+                    android:text="2 pieces"
+
+                    android:textSize="15dp"
+                    android:textColor="#ecf0f1"
+                    android:layout_weight="1"
+                    android:layout_column="12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#3498db" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     />
+            </TableRow>
+
+            <TextView
+
+                android:background="#2c3e50"
+                android:gravity="center"
+                android:capitalize="words"
+                android:color="#fff"
+                android:textAlignment="center"
+                android:textColor="#ecf0f1"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoText="false" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:text="* It is recommended to drink Milk after one hour of taking dinner."
+                android:background="#e74c3c"
+                android:capitalize="words"
+                android:color="#fff"
+                android:textAlignment="center"
+                android:textColor="#ecf0f1"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoText="false"
+                android:gravity="left" />
+
+
+
+
+        </TableLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

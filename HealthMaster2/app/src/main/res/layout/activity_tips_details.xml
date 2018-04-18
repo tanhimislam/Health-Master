@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_userinfo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/midnight_blue"
+    android:fillViewport="false"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight= "10dp"
+    android:paddingTop="15dp"
+    tools:context="com.threemusketeers.healthmaster.TipsDetails">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2c3e50"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+
+        <ImageView
+            android:id="@+id/imageViewTipsImage"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textViewTipsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="0dp"
+            android:textColor="@color/clouds"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:background="@drawable/separator"
+            android:layout_height="3dp" />
+
+        <TextView
+            android:id="@+id/textViewTipsDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/concrete"
+            android:textSize="15sp"
+            android:textAlignment="textStart"
+            android:layout_marginTop="19dp" />
+
+    </LinearLayout>
+</ScrollView>
